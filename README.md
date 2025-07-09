@@ -1,51 +1,47 @@
-🎓 Student Dashboard PWA
+# 🎓 Student Dashboard PWA
 
-A simple, installable Progressive Web App for students — track your syllabus, attendance, budget, notes, and productivity in one place.
-🚀 Features
+The **Student Dashboard** is a simple, installable **Progressive Web App** that helps students stay organized by tracking syllabus progress, attendance, budgets, notes, and productivity — all in one place.
 
-    ✅ Attendance Tracker: Log daily attendance, see percentage, get color-coded status (green above 80%, red below), and know how many days you can safely skip.
+## 🚀 Features
 
-    ✅ Pomodoro Timer: Stay focused with built-in study sprints.
+- ✅ **Attendance Tracker:** Log daily attendance, view percentage, see color-coded status (green above 80%, red below), and know how many days you can safely skip.
+- ✅ **Pomodoro Timer:** Stay focused with built-in Pomodoro study sprints.
+- ✅ **Budget Planner:** Track daily expenses, plan monthly budgets, and save for specific goals.
+- ✅ **Notes Manager:** Save and share class notes for easy access anytime.
+- ✅ **PWA Ready:** Install on your desktop or mobile device with offline support and Add to Home Screen functionality.
 
-    ✅ Budget Planner: Plan expenses, save for goals, track your savings.
+## 📱 How to Install
 
-    ✅ Notes Manager: Store and share class notes for easy future access.
+1. Open the [Live Demo](https://akshvy.github.io/student-dashboard/) in **Google Chrome** or **Edge**.
+2. Click the **Add to Home Screen** button when prompted.
+3. Use it just like a native app — works offline too.
 
-    ✅ PWA Ready: Install on desktop or mobile with offline support and Add to Home Screen button.
+## ⚙️ Tech Stack
 
-📱 How to Install
+- **HTML5**, **CSS3**, **JavaScript**
+- **Service Worker** for offline support
+- **Web Manifest** for installability
+- Tested on **Debian Linux**
 
-    Open the Live Demo in Google Chrome or Edge.
+## 🛠️ Run Locally
 
-    Click the Add to Home Screen button when prompted.
+Clone this repository, open the project folder, and run it on a local server to enable PWA features.
 
-    Use it just like a native app — works offline too.
-
-⚙️ Tech Stack
-
-    HTML5, CSS3, JavaScript
-
-    Service Worker for offline caching
-
-    Web Manifest for installability
-
-    Built & tested on Debian Linux
-
-🛠️ Run Locally
-
-Clone this repository, open the project folder, and serve it with any local server to enable PWA features.
-
+```bash
 git clone https://github.com/akshvy/student-dashboard.git
 cd student-dashboard
 python3 -m http.server
 
-Open your browser and visit http://localhost:8000.
-🌐 Live Demo
+Then open [http://localhost:8000](http://localhost:8000) in your browser.
 
-Live Site: https://akshvy.github.io/student-dashboard
-✨ Author
+## 🌐 Live Demo
 
-Made with ❤️ by Akshvy
-📜 License
+**Live Site:** [https://akshvy.github.io/student-dashboard](https://akshvy.github.io/student-dashboard)
+
+## ✨ Author
+
+Made with ❤️ by [Akshvy](https://github.com/akshvy)
+
+## 📜 License
 
 Open source for learning — feel free to fork, improve, and build your own version!
