@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Budget Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Budget Tracker</h1>
+
+  <section class="budget">
+    <h2>Add Expense/Income</h2>
+    <label>
+      Date:
+      <input type="date" id="entryDate">
+    </label>
+
+    <label>
+      Description:
+      <input type="text" id="entryDesc" placeholder="Eg: Lunch, Books">
+    </label>
+
+    <label>
+      Amount:
+      <input type="number" id="entryAmount" placeholder="Eg: -200 or 500">
+    </label>
+
+    <button onclick="addEntry()">Add Entry</button>
+
+    <h3>Balance: ₹<span id="balance">0</span></h3>
+
+    <h3>Transactions</h3>
+    <ul id="entriesList"></ul>
+  </section>
+
+  <h2>My Savings Goals</h2>
+  <section class="savings">
+    <label>
+      Product Name:
+      <input type="text" id="goalName" placeholder="Eg: New Phone">
+    </label>
+
+    <label>
+      Target Amount:
+      <input type="number" id="goalTarget" placeholder="Eg: 10000">
+    </label>
+
+    <button onclick="addGoal()">Add Goal</button>
+
+    <h3>Current Goals</h3>
+    <ul id="goalsList"></ul>
+  </section>
+
+  <!-- Back Button -->
+  <section class="back-link">
+    <button onclick="location.href='index.html'">⬅ Back to Dashboard</button>
+  </section>
+
+  <script src="budget.js"></script>
+</body>
+</html>

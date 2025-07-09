@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Notes Upload</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Notes Manager</h1>
+
+  <section class="notes">
+    <label>Upload Note:
+      <input type="file" id="noteFile">
+    </label>
+    <input type="text" id="noteName" placeholder="Enter note name">
+    <button onclick="uploadNote()">Save Note</button>
+
+    <h3>My Notes</h3>
+    <ul id="notesList"></ul>
+  </section>
+
+  <!-- Back Button -->
+  <section class="back-link">
+    <button onclick="location.href='index.html'">⬅ Back to Dashboard</button>
+  </section>
+
+  <script src="notes.js"></script>
+</body>
+</html>

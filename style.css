@@ -1,0 +1,220 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  background: #f7f7f7;
+}
+
+h1 {
+  text-align: center;
+}
+
+.todo {
+  max-width: 400px;
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 8px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+li button {
+  background: red;
+  color: #fff;
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+.pomodoro {
+  max-width: 300px;
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+#timer {
+  font-size: 48px;
+  margin: 20px 0;
+}
+
+.pomodoro button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+.quick-links {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.quick-links button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.back-link {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.back-link button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.attendance {
+  max-width: 500px;
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.attendance label {
+  display: block;
+  margin: 10px 0;
+}
+
+.attendance input[type="text"],
+.attendance input[type="date"] {
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.attendance button {
+  margin: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+#percentage.green {
+  color: green;
+}
+
+#percentage.red {
+  color: red;
+}
+.notes {
+  max-width: 500px;
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.notes label,
+.notes input {
+  display: block;
+  margin: 10px 0;
+}
+
+.notes button {
+  margin: 5px 0;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.notes ul {
+  list-style: none;
+  padding: 0;
+}
+
+.notes li {
+  margin: 5px 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+.budget, .savings {
+  max-width: 600px;
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.budget label, .savings label {
+  display: block;
+  margin: 10px 0;
+}
+
+.budget input, .savings input {
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.budget button, .savings button {
+  margin: 10px 0;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.budget ul, .savings ul {
+  list-style: none;
+  padding: 0;
+}
+
+.budget li, .savings li {
+  margin: 10px 0;
+  background: #eee;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.income {
+  color: green;
+}
+
+.expense {
+  color: red;
+}
+
+.progress-bar {
+  height: 10px;
+  background: #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 5px 0;
+}
+
+.progress {
+  height: 100%;
+  background: #4caf50;
+  width: 0%;
+}
+#installBtn {
+  background: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}

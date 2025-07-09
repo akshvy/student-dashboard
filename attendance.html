@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Attendance Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Attendance Tracker</h1>
+
+  <section class="attendance">
+    <label>Subject:
+      <input type="text" id="subjectInput" placeholder="Enter subject name">
+    </label>
+
+    <label>Semester Start:
+      <input type="date" id="startDate">
+    </label>
+
+    <label>Semester End:
+      <input type="date" id="endDate">
+    </label>
+
+    <button onclick="saveSetup()">Save Subject & Dates</button>
+
+    <h3>Mark Attendance</h3>
+    <label>
+      Pick Date:
+      <input type="date" id="markDate">
+    </label>
+
+    <label>
+      <input type="checkbox" id="isTodayHoliday"> Mark as Holiday
+    </label>
+
+    <button onclick="markAttendance(true)">Mark Present</button>
+    <button onclick="markAttendance(false)">Mark Absent</button>
+
+    <h3>Result</h3>
+    <p>Percentage: <span id="percentage">0%</span></p>
+    <p>Allowed Leaves Left (above 80%): <span id="allowedLeaves">0</span></p>
+  </section>
+
+  <!-- Back Button -->
+  <section class="back-link">
+    <button onclick="location.href='index.html'">⬅ Back to Dashboard</button>
+  </section>
+
+  <script src="attendance.js"></script>
+</body>
+</html>
