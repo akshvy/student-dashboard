@@ -23,17 +23,6 @@ The **Student Dashboard** is a simple, installable **Progressive Web App** that 
 - **Web Manifest** for installability
 - Tested on **Debian Linux**
 
-## 🛠️ Run Locally
-
-Clone this repository, open the project folder, and run it on a local server to enable PWA features.
-
-```bash
-git clone https://github.com/akshvy/student-dashboard.git
-cd student-dashboard
-python3 -m http.server
-
-Then open [http://localhost:8000](http://localhost:8000) in your browser.
-
 ## 🌐 Live Demo
 
 **Live Site:** [https://akshvy.github.io/student-dashboard](https://akshvy.github.io/student-dashboard)
